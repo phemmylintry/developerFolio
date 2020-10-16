@@ -1,15 +1,15 @@
-import React, { useContext } from "react";
+import React, { } from "react";
 import "./Achievement.css";
-import AchivementCard from "../../components/achievementCard/AchivementCard";
-import { achievementSection } from "../../portfolio";
+// import AchivementCard from "../../components/achievementCard/AchivementCard";
+// import { achievementSection } from "../../portfolio";
 import { Fade } from "react-reveal";
-import StyleContext from "../../contexts/StyleContext";
+// import StyleContext from "../../contexts/StyleContext";
 export default function Achievement() {
-  const { isDark } = useContext(StyleContext);
-  function openUrlInNewTab(url) {
-    var win = window.open(url, "_blank");
-    win.focus();
-  }
+  // const { isDark } = useContext(StyleContext);
+  // function openUrlInNewTab(url) {
+  //   var win = window.open(url, "_blank");
+  //   win.focus();
+  // }
   return (
     <Fade bottom duration={1000} distance="20px">
       {/* <div className="main" id="achievements">
