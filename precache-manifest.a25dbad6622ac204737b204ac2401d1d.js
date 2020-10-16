@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8399d6eabe522a701115e15e5c479f45",
+    "revision": "266ca2d47bf28a4d78d4dcf0d706e8e2",
     "url": "/developerFolio/index.html"
   },
   {
-    "revision": "2ad859b1c9341e9395e0",
+    "revision": "db594201f0b45d346d23",
     "url": "/developerFolio/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "07a63269d56b6fcf6435",
+    "revision": "422b515c3679f34f09a6",
     "url": "/developerFolio/static/css/4.a922a401.chunk.css"
   },
   {
-    "revision": "bbda80894ecfc00ebaaf",
+    "revision": "e39a67ddf9f998ac97c6",
     "url": "/developerFolio/static/css/main.cd13bd5b.chunk.css"
   },
   {
-    "revision": "53a957c64200bc3d1cb3",
-    "url": "/developerFolio/static/js/2.e6c51e8d.chunk.js"
+    "revision": "bd718659bb813404164d",
+    "url": "/developerFolio/static/js/2.c42a4d0d.chunk.js"
   },
   {
     "revision": "7e0fd0c09333f2e525fa479f52af448a",
-    "url": "/developerFolio/static/js/2.e6c51e8d.chunk.js.LICENSE.txt"
+    "url": "/developerFolio/static/js/2.c42a4d0d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2ad859b1c9341e9395e0",
-    "url": "/developerFolio/static/js/3.62e10b09.chunk.js"
+    "revision": "db594201f0b45d346d23",
+    "url": "/developerFolio/static/js/3.3413ec05.chunk.js"
   },
   {
-    "revision": "07a63269d56b6fcf6435",
-    "url": "/developerFolio/static/js/4.2787a5b6.chunk.js"
+    "revision": "422b515c3679f34f09a6",
+    "url": "/developerFolio/static/js/4.4549c66a.chunk.js"
   },
   {
-    "revision": "bbda80894ecfc00ebaaf",
-    "url": "/developerFolio/static/js/main.dc5ed99e.chunk.js"
+    "revision": "e39a67ddf9f998ac97c6",
+    "url": "/developerFolio/static/js/main.033db900.chunk.js"
   },
   {
-    "revision": "55664a0507200dd96264",
-    "url": "/developerFolio/static/js/runtime-main.c42e12f0.js"
+    "revision": "e4503fe73256008f1ef2",
+    "url": "/developerFolio/static/js/runtime-main.3fc0986a.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
