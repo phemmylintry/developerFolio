@@ -25,7 +25,7 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
-          <li>
+          {/* <li>
             <a href="#skills">Skills</a>
           </li>
           {exp === true && (
@@ -47,7 +47,7 @@ function Header() {
           </li>
           <li>
             <a href="#contact">Contact Me</a>
-          </li>
+          </li> */}
           <li>
             <a>
               <ToggleSwitch />

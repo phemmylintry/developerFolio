@@ -8,7 +8,7 @@ export default function Podcast() {
   const { isDark } = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="20px">
-      <div className="main">
+      {/* <div className="main">
         <div className="podcast-header">
           <h1 className="podcast-header-title">{podcastSection.title}</h1>
           <p
@@ -35,7 +35,7 @@ export default function Podcast() {
             );
           })}
         </div>
-      </div>
+      </div> */}
     </Fade>
   );
 }
