@@ -60,10 +60,10 @@ https://fontawesome.com/icons?d=gallery */
     //   skillName: "mysql",
     //   fontAwesomeClassname: "fab fa-mysql"
     // },
-    {
-      skillName: 'sass',
-      fontAwesomeClassname: 'fab fa-sass',
-    },
+    // {
+    //   skillName: 'sass',
+    //   fontAwesomeClassname: 'fab fa-sass',
+    // },
     {
       skillName: 'JavaScript',
       fontAwesomeClassname: 'fab fa-js',
@@ -92,10 +92,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: 'nodejs',
       fontAwesomeClassname: 'fab fa-node',
     },
-    {
-      skillName: 'swift',
-      fontAwesomeClassname: 'fab fa-swift',
-    },
+    // {
+    //   skillName: 'swift',
+    //   fontAwesomeClassname: 'fab fa-swift',
+    // },
     {
       skillName: 'npm',
       fontAwesomeClassname: 'fab fa-npm',
@@ -112,10 +112,10 @@ https://fontawesome.com/icons?d=gallery */
     //   skillName: "firebase",
     //   fontAwesomeClassname: "fas fa-fire"
     // },
-    {
-      skillName: 'firebase',
-      fontAwesomeClassname: 'fas fa-fire',
-    },
+    // {
+    //   skillName: 'firebase',
+    //   fontAwesomeClassname: 'fas fa-fire',
+    // },
     {
       skillName: 'python',
       fontAwesomeClassname: 'fab fa-python',
@@ -180,7 +180,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: 'Software Engineer',
@@ -220,22 +220,22 @@ const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "phemmylintry", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true", // Set true or false to show Contact profile using Github, defaults to false// Set true or false to show Contact profile using Github, defaults to true
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: 'Big Projects',
-  subtitle: 'SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH',
+  title: 'Projects',
+  subtitle: '',
   projects: [
     {
-      image: require('./assets/images/saayaHealthLogo.webp'),
-      link: 'http://saayahealth.com/',
+      image: require('./assets/images/email.PNG'),
+      link: 'https://email-microdev.herokuapp.com/',
     },
     {
-      image: require('./assets/images/nextuLogo.webp'),
-      link: 'http://nextu.se/',
+      image: require('./assets/images/nursery.PNG'),
+      link: 'https://online-nursery.herokuapp.com/',
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -332,7 +332,7 @@ const achievementSection = {
       ],
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -357,7 +357,7 @@ title: 'Blogs',
         'React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.',
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -376,7 +376,7 @@ title: 'TALKS',
       event_url: 'https://www.facebook.com/events/2339906106275053/',
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Podcast Section

@@ -1,9 +1,9 @@
-import React, { } from "react";
+import React, { useContext } from "react";
 import "./Talks.css";
-// import TalkCard from "../../components/talkCard/TalkCard";
-// import { talkSection } from "../../portfolio";
+import TalkCard from "../../components/talkCard/TalkCard";
+import { talkSection } from "../../portfolio";
 import { Fade } from "react-reveal";
-// import StyleContext from "../../contexts/StyleContext";
+import StyleContext from "../../contexts/StyleContext";
 
 export default function Talks() {
   const { isDark } = useContext(StyleContext);
@@ -12,7 +12,7 @@ export default function Talks() {
   }
   return (
     <Fade bottom duration={1000} distance="20px">
-      {/* <div className="main" id="talks">
+      <div className="main" id="talks">
         <div className="talk-header">
           <h1 className="talk-header-title">{talkSection.title}</h1>
           <p
@@ -40,7 +40,7 @@ export default function Talks() {
             );
           })}
         </div>
-      </div> */}
+      </div>
     </Fade>
   );
 }

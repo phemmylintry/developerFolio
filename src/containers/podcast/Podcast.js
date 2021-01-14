@@ -1,8 +1,8 @@
-import React, { } from "react";
+import React, { useContext } from "react";
 import "./Podcast.css";
-// import { podcastSection } from "../../portfolio";
+import { podcastSection } from "../../portfolio";
 import { Fade } from "react-reveal";
-// import StyleContext from "../../contexts/StyleContext";
+import StyleContext from "../../contexts/StyleContext";
 
 export default function Podcast() {
   const { isDark } = useContext(StyleContext);
@@ -11,7 +11,7 @@ export default function Podcast() {
   }
   return (
     <Fade bottom duration={1000} distance="20px">
-      {/* <div className="main">
+      <div className="main">
         <div className="podcast-header">
           <h1 className="podcast-header-title">{podcastSection.title}</h1>
           <p
@@ -40,7 +40,7 @@ export default function Podcast() {
             );
           })}
         </div>
-      </div> */}
+      </div>
     </Fade>
   );
 }
