@@ -3,6 +3,9 @@ import "./SocialMedia.css";
 import { socialMediaLinks } from "../../portfolio";
 
 export default function socialMedia() {
+  if (!socialMediaLinks.display) {
+    return null;
+  }
   return (
     <div className="social-media-div">
       
@@ -55,7 +58,8 @@ export default function socialMedia() {
       null}
 
       {socialMediaLinks.twitter ?
-      <a href={socialMediaLinks.twitter} className="icon-button twitter" target="_blank" rel="noopener noreferrer"> 
+
+      <a href={socialMediaLinks.twitter} className="icon-button twitter" target="_blank" rel="noopener noreferrer">
         <i className="fab fa-twitter"></i>
         <span></span>
       </a>

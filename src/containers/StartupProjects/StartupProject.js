@@ -5,11 +5,14 @@ import { Fade } from "react-reveal";
 // import StyleContext from "../../contexts/StyleContext";
 
 export default function StartupProject() {
-  // function openProjectInNewWindow(url) {
-  //   var win = window.open(url, "_blank");
-  //   win.focus();
-  // }
-  // const { isDark } = useContext(StyleContext);
+  function openProjectInNewWindow(url) {
+    var win = window.open(url, "_blank");
+    win.focus();
+  }
+  const { isDark } = useContext(StyleContext);
+  if (!bigProjects.display) {
+    return null;
+  }
   return (
     <Fade bottom duration={1000} distance="20px">
       {/* <div className="main" id="projects">
@@ -26,9 +29,10 @@ export default function StartupProject() {
           </p>
           <div className="startup-projects-main">
             <div className="startup-project-text">
-              {bigProjects.projects.map((project) => {
+              {bigProjects.projects.map((project,i) => {
                 return (
                   <div
+                    key={i}
                     className="saaya-health-div"
                     onClick={() => openProjectInNewWindow(project.link)}
                   >
