@@ -23,9 +23,9 @@ const greeting = {
 const socialMediaLinks = {
 
   github: "https://github.com/phemmylintry",
-  linkedin: "https://www.linkedin.com/in/oluwafemiadenuga/",
+  linkedin: "https://www.linkedin.com/in/phemmylintry/",
   gmail: "phemmylintry@gmail.com",
-  twitter: "https://twitter.com/realfemiadenuga",
+  twitter: "https://twitter.com/phemmylintry",
   facebook: "https://www.facebook.com/femosocratis",
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
